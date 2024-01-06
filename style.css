@@ -1,0 +1,48 @@
+html,
+body {
+  
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("rain.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: CodeMyst 55s infinite ease-in-out;
+  
+}
+
+@keyframes CodeMyst {
+  0% {
+    background-image: url("rain.jpg");
+  
+  }
+  25% {
+    background-image: url("3.webp");
+  }
+  50% {
+    background-image: url("8.webp");
+  }
+  80% {
+    background-image: url("9.webp");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-family: cursive;
+  
+}
